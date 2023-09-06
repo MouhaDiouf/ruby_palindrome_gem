@@ -1,6 +1,6 @@
 # Palindrome detector
 
-`mouha_palindrome` is a sample Ruby gem created by me.
+`mouha_palindrome` is a sample Ruby gem created by Mouha Diouf.
 
 ## Installation
 
