@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Learn enough Ruby palindrome detector"
   spec.homepage = "https://github.com/MouhaDiouf/ruby_palindrome_gem"
   spec.required_ruby_version = ">= 2.6.0"
+  spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
@@ -33,4 +34,8 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  #spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "minitest", "~> 5.0"
+
 end
