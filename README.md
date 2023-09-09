@@ -28,7 +28,7 @@ $ gem install mouha_palindrome
 
 ```
 $ irb
->> require 'mhartl_palindrome'
+>> require 'mouha_palindrome'
 >> "honey badger".palindrome?
 => false
 >> "deified".palindrome?
