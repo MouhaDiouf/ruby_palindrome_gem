@@ -6,7 +6,8 @@ class String
 
   # Returns true for a palindrome, false otherwise.
   def palindrome?
-    processed_content == processed_content.reverse
+    puts processed_content.empty?
+   !processed_content.empty? && processed_content == processed_content.reverse
   end
 
 
@@ -14,6 +15,6 @@ class String
 
     # Returns content for palindrome testing.
     def processed_content
-      scan(/[a-z]/i).join.downcase
+     scan(/[a-z]/i).join.downcase
     end
 end
